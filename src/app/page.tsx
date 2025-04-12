@@ -8,7 +8,7 @@ export default function Home() {
       <div className="md:w-5/7 px-5 md:px-0 mx-auto">
         <header className="my-8 space-y-0">
           <h1 className="text-4xl leading-12 font-black text-[#222] tracking-wide">
-            Kelvinsekx&apos;s Portfolio
+            Kelvinsekx&apos;s Cover Letter
           </h1>
           <p className="font-medium text-base text-gray-600 tracking-tight">
             My government name is Ukuejubola Kelvin Oritsetimeyin.
@@ -37,63 +37,53 @@ export default function Home() {
             </li>
           </ul>
         </header>
-        {/* <nav>
-          <ul className="flex gap-4 my-8">
-            <li>
-              <Link href={"/projects"}>Projects</Link>
-            </li>
-            <li>
-              <a>Resume</a>
-            </li>
-          </ul>
-        </nav> */}
+
         <main>
-          <p className="text-3xl font-semibold my-4">Hi, Hassan & Charles </p>
-          <p>Thank you for the opportunity to serve Payecards.</p>
+          <p className="text-3xl font-semibold my-4">Hi Hassan & Charles </p>
+          <p>
+            Thank you for the opportunity to be considered for the Frontend
+            Developer role at Payecards.
+          </p>
 
           <CollapsibleSection header="Who am I?">
             <>
               <p>
-                I am Kelvin, but mostly known as Kelvinsekx. I reside in Ibadan,
-                Nigeria. And yes, I know you were like hoo! I never heard of
-                that place, it must be one very far town in the middle of no
-                where in Nigeria. Fun fact is{" "}
+                I am Kelvin, though most people know me as Kelvinsekx. I live in
+                Ibadan, Nigeria. I know you might be thinking, &quot;Hmm,
+                haven&apos;t heard much about that place—what&apos;s going on
+                there?&quot; Fun fact is{" "}
                 <a
                   href="https://en.wikipedia.org/wiki/Ibadan"
                   className="hover:underline"
                 >
                   <span>
                     Ibadan is the largest city in West Africa and one of the
-                    neighboring states to the very popular, Lagos
+                    neighbouring states to the very popular, Lagos
                   </span>
                   <span className="text-black font-semibold"> #</span>
                 </a>
                 .
               </p>
               <p>
-                I know what you must have think next! Hmmmm, there is a huge
-                timezone difference. Actually, I understand. It is not bad. Let
-                me show you.
+                You might also be wondering about the timezone
+                difference—totally understandable! Here&apos;s a quick look:
               </p>
               <UserTimeInfo />
               <p>
-                I am interested in this role because I&apos;ve heard so much
-                about this job posting that I had to apply since this sounds
-                like a dream job and a once in a lifetime opportunity. Also, I
-                look forward to learning and advancing my career around crypto
-                and money in general.{" "}
-                <b>
-                  Money should indeed solve problems and not create extra
-                  problems,{" "}
-                </b>
-                and what better way than to be among the solutions. That being
-                said, let&apos;s get to my story and why I think we are are a
-                great fit for each other.
+                I&apos;m especially drawn to this role because the job posting
+                sounded like a dream come true. One of those rare,
+                once-in-a-lifetime opportunities. I was intrigued about the
+                intersection of technology, money, and crypto where Payecard
+                sits.
+                <b> Money should indeed solve problems and not create more, </b>
+                What better way to live by that than being part of the solution?
+                That being said, let&apos;s get to my story and why I think we
+                are are a great fit for each other.
               </p>
               <div className="h-52 w-full rounded-2xl relative overflow-hidden">
                 <Image
                   src={"/images/IMG_9781.jpg"}
-                  alt=""
+                  alt="a good picture of me, kelvinsekx"
                   className="object-cover"
                   fill
                 />
@@ -106,25 +96,27 @@ export default function Home() {
               <p>
                 For my title, I am a software engineer & product manager.
                 Sometimes it is just difficult to box my specific role to being
-                a developer only or product manager only. As I have led senior
+                a developer only or product manager only. As I have led
                 positions both as an engineer and manager. Plus I actively still
                 do both.
               </p>
               <p>
                 I started my programming journey around 2019 when I was learning
                 HTML, CSS and PHP. I would usually meet my old friend Tayo, who
-                is now a senior mobile engineer at Kuda - one of the biggest
-                Neobanks in Africa. After that I moved on to learning javascript
-                and node which helped me fall in love with React at that time.
+                is now a Senior Mobile Engineer at Kuda - one of the biggest
+                Neobanks in Africa, to teach me whatever even though he
+                primarily writes Java. After that I moved on to learning
+                javascript and node which helped me fall in love with React at
+                the time.
               </p>
               <p>
-                Between 2019 and 2021, I worked majorly as an independent
-                developer where I did a couple of freelance work for OlaOla
-                Foods, Sharpview Optometric clinic among others before working
-                at a friend&apos;s startup as a frontend developer.
+                Between 2019 and 2021, I worked primarily as an independent
+                developer, handling freelance gigs for companies like OlaOla
+                Foods and Sharpview Optometric Clinic. Eventually, I joined a
+                friend&apos;s startup as a Frontend Developer.
               </p>
               <p>
-                In 2020, I founded Ibadan Techies Club with the help of my
+                In 2021, I founded Ibadan Techies Club with the help of my
                 mentor, Jason Palmer, where I went on to raise over $10K and
                 held dozens of physical meetups between 2022 and 2024. There I
                 was able to gather Jason, IJe, Mark and Zakk to raise funds and
@@ -134,13 +126,13 @@ export default function Home() {
               <div className="h-62 w-full rounded-2xl relative overflow-hidden">
                 <Image
                   src={"/images/IMG_9925.jpg"}
-                  alt=""
+                  alt="a group photo from one of the meetups at Ibadan Techies Club"
                   className="object-cover"
                   fill
                 />
               </div>
-              <p>
-                I have gone on to work with{" "}
+              <a href="https://linkedin.com/in/kelvinsekx">
+                Since then, I have gone on to work with{" "}
                 <b className="text-black tracking-tight underline">
                   Wigxel as Frontend Developer
                 </b>{" "}
@@ -153,21 +145,21 @@ export default function Home() {
                   and presently at Liinae as a Technical Product Manager
                 </b>
                 .
-              </p>
+              </a>
             </>
           </CollapsibleSection>
           <CollapsibleSection header="Why me?">
             <>
               <p>
-                I am an hustler, entrepreneral and have a great eye for details.
-                In short, I do not stop until it comes out best. I believe
-                everything worth doing is worth doing well. I put so much effort
-                into my craft, experience and code.
+                I am an hustler, an entrepreneur and have a great eye for
+                details. In short, I do not stop until it comes out best. I
+                believe everything worth doing is worth doing well. I pour
+                everything into my craft— my experience, my code, my discipline.
               </p>
 
               <p>
-                I believe code is to help make our lives easier and should be
-                humans first.
+                I believe code is meant to make life easier, and it should
+                always be human-first.
               </p>
               {/* <Testimony /> */}
 
@@ -175,28 +167,21 @@ export default function Home() {
                 <header className="font-semibold">React</header>
                 <p>
                   I have over 5 years experience dabbling with React
-                  professionally. From the days of Gatsby and pre-overhaul of
-                  Next. I have written a lot of react.
+                  professionally. Starting from Gatsby days and through the
+                  early days of Next. I have written a lot of React code, trust
+                  me!
                 </p>
               </section>
               <section>
                 <header className="font-semibold">Vue</header>
                 <p>
                   I joined Sproutly in 2024. And my single responsibility was to
-                  take their MVP at 40% to 100% completion in 3 months. You know
-                  what I did? I did it in 6 weeks. I led a team of another 2 vue
-                  engineers shaping and redefinig how they work.
+                  take their MVP at 40% to 100% completion in 3 months. A
+                  codebase of 3000+ lines of code written entirely in Vue and
+                  Nuxt. You know what I did? I did it in 6 weeks. I led a team
+                  of another 2 vue engineers shaping and redefinig how they
+                  work.
                 </p>
-              </section>
-              <section>
-                <header className="font-semibold">
-                  Engineering Management
-                </header>
-                Same 2024, I was given the opportunity to lead a team of 5
-                engineers and designers at Liinae. It is my biggest project yet
-                and I am proud of it. I was able to lead the team to build a
-                product from development to launch, I was tasked to motivate,
-                review and establish standards.
               </section>
               <section>
                 <header className="font-semibold">Product Management</header>
@@ -234,12 +219,8 @@ export default function Home() {
         {/* <footer>
           <p>
             I did not get the idea from heavens. This portfolio is built on the
-            amazing one from{" "}
-            <a href="https://robin-malfait-tailwind-job-application.vercel.app/">
+            amazing idea from
               Robin Malfait
-            </a>
-            . If you are a developer, I heavily preach using mine as a template
-            too.
           </p>
         </footer> */}
       </div>

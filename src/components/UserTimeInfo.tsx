@@ -50,7 +50,7 @@ export function UserTimeInfo() {
         </div>
       </div>
       <p>
-        I am willing to work from 7am - 8pm (my local time) which is{" "}
+        I am willing to work between 7am - 8pm (my local time) which is{" "}
         {7 + timeDifference}am - {8 + timeDifference}pm (your local time) to
         cover for whatever number of hours you need me to work for a day. Long
         story short, I don&apos;t think the timezone difference would be any
